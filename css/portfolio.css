@@ -1,0 +1,58 @@
+body{
+	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container{
+	width: 800px;
+	margin: 30px auto;
+}
+#logo{
+	margin-left: -82px;
+}
+#mainmenu ul{
+	display: block;
+	height: 50px;
+	font: normal 20px "impact";
+}
+#mainmenu ul li{
+	float: left;
+	list-style: none;
+	padding-right: 10px;
+}
+#mainmenu a:link, #mainmenu a:visited{
+	text-decoration: none;
+	color: #555;
+}
+#mainmenu a:hover{
+	color: #333;
+}
+#mainmenu li.active a:link,#mainmenu li.active a:visited{
+	color: #333;
+}
+.clearfix{
+	display:block;
+	clear: both;
+}
+ul{
+	-webkit-padding-start: 3px;
+}
+/* Reset and design for gallery */
+#portfolio .gcontainer{
+	border: none;
+}
+#portfolio .gTh{
+		border: 1px solid #333;
+		margin: 1px;
+		padding: 0;
+}
+#portfolio .gTh img{
+	height: 70px; width: auto;
+}
+
+/* Admin link */
+#admin{
+	position: absolute; top: 0; right: 0;
+}
+/* Hide summary */
+.summary{
+    display: none
+}

@@ -1,0 +1,1132 @@
+2012/01/03 11:40:18 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): FBGallery->run()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(2): CBaseController->widget('application.ext...', Array)
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', NULL, true)
+#10 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php
+2012/01/03 11:42:27 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): FBGallery->run()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(2): CBaseController->widget('application.ext...')
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', NULL, true)
+#10 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php
+2012/01/03 11:42:28 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): FBGallery->run()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(2): CBaseController->widget('application.ext...')
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', NULL, true)
+#10 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php
+2012/01/03 11:46:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.{{galleries}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{galleries}}`.
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php (7)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (200)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (162)
+2012/01/03 11:46:59 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): FBGallery->run()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(2): CBaseController->widget('application.ext...')
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', NULL, true)
+#10 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php
+2012/01/03 11:47:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.{{galleries}}' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `{{galleries}}`.
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php (7)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (200)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (162)
+2012/01/03 11:47:00 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php:2276
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(372): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): FBGallery->run()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(2): CBaseController->widget('application.ext...')
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', NULL, true)
+#10 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php
+2012/01/03 11:49:24 [warning] [application] Failed to set unsafe attribute "quality" of "Cfg".
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBAdmin.php (41)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (346)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (166)
+2012/01/03 11:49:24 [warning] [application] Failed to set unsafe attribute "sharpen" of "Cfg".
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBAdmin.php (41)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (346)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (166)
+2012/01/03 11:50:47 [warning] [application] Failed to set unsafe attribute "quality" of "Cfg".
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBAdmin.php (41)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (346)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (166)
+2012/01/03 11:50:47 [warning] [application] Failed to set unsafe attribute "sharpen" of "Cfg".
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBAdmin.php (41)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (346)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (166)
+2012/01/03 12:04:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "illustrations".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('illustrations')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('illustrations')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/illustrati...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+2012/01/03 12:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "illustration".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('illustration')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('illustration')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/illustrati...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/illustration
+2012/01/03 12:05:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "illustrations".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('illustrations')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('illustrations')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/illustrati...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+2012/01/03 12:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "illustrations".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('illustrations')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('illustrations')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/illustrati...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+2012/01/03 12:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "imageslogo.png".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('imageslogo.png')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('imageslogo.png')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/imageslogo...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/imageslogo.png
+2012/01/03 12:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('admin')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('admin')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/admin')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/admin
+2012/01/03 12:46:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('admin')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('admin')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/admin')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/admin
+2012/01/03 12:48:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "admin".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:875
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('admin', NULL, true)
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('admin')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/yiiportfolio/index.php/site/index
+2012/01/03 13:54:00 [error] [exception.CException] exception 'CException' with message 'Property "CHttpRequest.isGuest" is not defined.' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/layouts/portfolio.php(35): CComponent->__get('isGuest')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(781): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#4 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(57): CController->render('illustrations')
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIllustrations()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('illustrations')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/illustrati...')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+2012/01/03 14:43:09 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(3): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(345): require()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(271): CWebApplication->createController()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (3)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 14:46:44 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(3): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(345): require()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(271): CWebApplication->createController()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (3)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 14:46:52 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(3): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(345): require()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(271): CWebApplication->createController()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (3)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 14:47:40 [error] [php] include(Controller.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(3): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(345): require()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(271): CWebApplication->createController()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (3)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 14:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "profile".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:477
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(262): CController->missingAction('profile')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('profile')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/profile')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#5 {main} REQUEST_URI=/yiiportfolio/index.php/site/profile
+2012/01/03 15:05:42 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `about`.
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:06:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `about`.
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:07:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `about`.
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:08:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.info' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `info`.
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:22:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 15:22:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 15:30:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php:158
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('test')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/test')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/yiiportfolio/index.php/about/test
+2012/01/03 15:30:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php:158
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('test')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/test')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/yiiportfolio/index.php/about/test
+2012/01/03 15:30:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php:158
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('test')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/test')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/yiiportfolio/index.php/about/test
+2012/01/03 15:30:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php:158
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('test')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/test')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/yiiportfolio/index.php/about/test
+2012/01/03 15:31:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php:158
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/auth/CAccessControlFilter.php(120): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('test')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/test')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main} REQUEST_URI=/yiiportfolio/index.php/about/test
+2012/01/03 15:33:20 [error] [php] Object of class About could not be converted to string (/Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php:7)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): AboutController->renderFile()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): AboutController->renderPartial()
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): AboutController->render()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php (7)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (133)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:42:10 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "fetchData".' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:269
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(6): CComponent->__call('fetchData', Array)
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(6): CActiveDataProvider->fetchData()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('index', Array, true)
+#6 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): CController->render('index', Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#18 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#19 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:42:28 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "fetchData".' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:269
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(6): CComponent->__call('fetchData', Array)
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(6): CActiveDataProvider->fetchData()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('index', Array, true)
+#6 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): CController->render('index', Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#18 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#19 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:44:39 [error] [exception.CException] exception 'CException' with message 'CActiveDataProvider and its behaviors do not have a method or closure named "findByPk".' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:269
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(12): CComponent->__call('findByPk', Array)
+#1 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(12): CActiveDataProvider->findByPk(0)
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('index', Array, true)
+#6 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): CController->render('index', Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#18 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#19 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:53:45 [error] [php] Invalid argument supplied for foreach() (/Users/lisaovermyr/Sites/yii/yii/framework/db/schema/CDbCommandBuilder.php:544)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (136)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:54:09 [error] [php] Invalid argument supplied for foreach() (/Users/lisaovermyr/Sites/yii/yii/framework/db/schema/CDbCommandBuilder.php:544)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#12 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (136)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 15:58:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php:166
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(138): AboutController->loadModel(0)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:58:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php:166
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(138): AboutController->loadModel(0)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:58:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php:166
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(138): AboutController->loadModel(0)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:58:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php:167
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(138): AboutController->loadModel(0)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 15:58:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php:167
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(138): AboutController->loadModel(0)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#13 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#14 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 16:00:36 [error] [php] Trying to get property of non-object (/Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php:8)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): AboutController->renderFile()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): AboutController->renderPartial()
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): AboutController->render()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php (8)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (133)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 16:00:58 [error] [exception.CException] exception 'CException' with message 'Property "CActiveDataProvider.text" is not defined.' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(6): CComponent->__get('text')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('index', Array, true)
+#5 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): CController->render('index', Array)
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/index')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main} REQUEST_URI=/yiiportfolio/index.php/about/index
+2012/01/03 16:02:04 [error] [php] Trying to get property of non-object (/Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php:6)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): AboutController->renderFile()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): AboutController->renderPartial()
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): AboutController->render()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#15 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php (6)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (133)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 16:04:35 [error] [php] Undefined variable: model (/Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/_view.php:20)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): AboutController->renderFile()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CListView.php(242): AboutController->renderPartial()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(158): CListView->renderItems()
+#3 unknown(0): CListView->renderSection()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(141): preg_replace_callback()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(126): CListView->renderContent()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): CListView->run()
+#7 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php(21): AboutController->widget()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): AboutController->renderInternal()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): AboutController->renderFile()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): AboutController->renderPartial()
+#12 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php(133): AboutController->render()
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): AboutController->actionIndex()
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): AboutController->runAction()
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CAccessControlFilter->filter()
+#18 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): AboutController->filterAccessControl()
+#19 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#20 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#21 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): AboutController->runActionWithFilters()
+#22 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): AboutController->run()
+#23 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#24 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#25 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/about/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/_view.php (20)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/about/index.php (21)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/AboutController.php (133)
+2012/01/03 16:06:27 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 16:06:29 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 16:06:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 16:06:31 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 16:06:39 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:328
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(301): CController->invalidActionParams(Object(CInlineAction))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(1144): CFilter->filter(Object(CFilterChain))
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(283): CFilterChain->run()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('update')
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('about/update')
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#11 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#12 {main} REQUEST_URI=/yiiportfolio/index.php/about/update
+2012/01/03 16:17:12 [error] [php] Undefined variable: id (/Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php:35)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/site/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (35)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 16:22:43 [error] [exception.CException] exception 'CException' with message 'Property "About.name" is not defined.' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/db/ar/CActiveRecord.php(129): CComponent->__get('name')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/helpers/CHtml.php(1711): CActiveRecord->__get('name')
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CDetailView.php(208): CHtml::value(Object(About), 'name')
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): CDetailView->run()
+#4 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(9): CBaseController->widget('zii.widgets.CDe...', Array)
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', Array, true)
+#9 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio', Array)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#17 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#18 {main} REQUEST_URI=/yiiportfolio/index.php/site/index
+2012/01/03 16:23:45 [error] [exception.CException] exception 'CException' with message 'Property "CListView.data" is not defined.' in /Users/lisaovermyr/Sites/yii/yii/framework/base/CComponent.php:174
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWidgetFactory.php(162): CComponent->__set('data', Object(About))
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(139): CWidgetFactory->createWidget(Object(SiteController), 'zii.widgets.CLi...', Array)
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(165): CBaseController->createWidget('zii.widgets.CLi...', Array)
+#3 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(7): CBaseController->widget('zii.widgets.CLi...', Array)
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', Array, true)
+#8 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio', Array)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#11 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#16 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#17 {main} REQUEST_URI=/yiiportfolio/index.php/site/index
+2012/01/03 16:24:38 [error] [php] Undefined variable: dataProvider (/Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php:11)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): SiteController->render()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/site/index
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php (11)
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (39)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/03 16:25:24 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "_view".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php:875
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CListView.php(242): CController->renderPartial('_view', Array)
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(158): CListView->renderItems()
+#2 [internal function]: CBaseListView->renderSection(Array)
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(141): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/zii/widgets/CBaseListView.php(126): CBaseListView->renderContent()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(166): CBaseListView->run()
+#6 /Users/lisaovermyr/Sites/yiiportfolio/protected/views/site/portfolio.php(13): CBaseController->widget('zii.widgets.CLi...', Array)
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(119): require('/Users/lisaover...')
+#8 /Users/lisaovermyr/Sites/yii/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/Users/lisaover...', Array, true)
+#9 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(866): CBaseController->renderFile('/Users/lisaover...', Array, true)
+#10 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(779): CController->renderPartial('portfolio', Array, true)
+#11 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(39): CController->render('portfolio', Array)
+#12 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#13 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#14 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#15 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): CController->run('index')
+#17 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/index')
+#18 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#19 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#20 {main} REQUEST_URI=/yiiportfolio/index.php/site/index
+2012/01/04 09:35:25 [error] [php] include(LoginForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(112): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): SiteController->runAction()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/site/login
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (112)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/04 09:35:38 [error] [php] include(LoginForm.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Users/lisaovermyr/Sites/yii/yii/framework/YiiBase.php:421)
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php(112): spl_autoload_call()
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionLogin()
+#2 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#3 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(278): SiteController->runAction()
+#4 /Users/lisaovermyr/Sites/yii/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#5 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#6 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#7 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiportfolio/index.php/site/login
+in /Users/lisaovermyr/Sites/yiiportfolio/protected/controllers/SiteController.php (112)
+in /Users/lisaovermyr/Sites/yiiportfolio/index.php (13)
+2012/01/04 09:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii/default/login".' in /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /Users/lisaovermyr/Sites/yii/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('gii/default/log...')
+#1 /Users/lisaovermyr/Sites/yii/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /Users/lisaovermyr/Sites/yiiportfolio/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yiiportfolio/index.php/gii/default/login
+2012/01/10 13:04:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yii_portfolio'' in /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/lisaovermyr/sites/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#7 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#8 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#9 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#14 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#15 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:15:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'yii_portfolio'' in /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/lisaovermyr/sites/yii/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/lisaovermyr/sites/yii/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(615): CApplication->getDb()
+#5 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(2263): CActiveRecord->getDbConnection()
+#6 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#7 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#8 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#9 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#10 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#14 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#15 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:15:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_about`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php (35)
+in /Users/lisaovermyr/sites/yiiportfolio/index.php (13)
+2012/01/12 11:15:39 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{about}}" for active record class "About" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#1 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#3 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#9 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:17:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_about`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php (35)
+in /Users/lisaovermyr/sites/yiiportfolio/index.php (13)
+2012/01/12 11:17:27 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{about}}" for active record class "About" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#1 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#3 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#9 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:18:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_about`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php (35)
+in /Users/lisaovermyr/sites/yiiportfolio/index.php (13)
+2012/01/12 11:18:23 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{about}}" for active record class "About" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#1 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#3 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#9 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:18:26 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_about' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_about`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php (35)
+in /Users/lisaovermyr/sites/yiiportfolio/index.php (13)
+2012/01/12 11:18:26 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{about}}" for active record class "About" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(About))
+#1 /Users/lisaovermyr/sites/yii/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('About')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(35): CActiveDataProvider->__construct('About')
+#3 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#5 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#6 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#8 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('')
+#9 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiportfolio/
+HTTP_REFERER=http://localhost:8888/
+---
+2012/01/12 11:19:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_galleries' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_galleries`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php (7)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (200)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (162)
+2012/01/12 11:19:57 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(174): FBGallery->run()
+#5 /Users/lisaovermyr/sites/yiiportfolio/protected/views/site/illustrations.php(2): CBaseController->widget('application.ext...', Array)
+#6 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(127): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/sites/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/sites/yii/framework/web/CController.php(783): CController->renderPartial('illustrations', NULL, true)
+#10 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(60): CController->render('illustrations')
+#11 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIllustrations()
+#12 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('illustrations')
+#16 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/illustrati...')
+#17 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+HTTP_REFERER=http://localhost:8888/yiiportfolio/
+---
+2012/01/12 11:25:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_galleries' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_galleries`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php (7)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (200)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php (162)
+2012/01/12 11:25:12 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{galleries}}" for active record class "Gallery" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(Gallery))
+#1 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/Gallery.php(7): CActiveRecord::model('Gallery')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(200): Gallery::model()
+#3 /Users/lisaovermyr/sites/yiiportfolio/protected/extensions/FBGallery/FBGallery.php(162): FBGallery->loadGallery()
+#4 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(174): FBGallery->run()
+#5 /Users/lisaovermyr/sites/yiiportfolio/protected/views/site/illustrations.php(2): CBaseController->widget('application.ext...', Array)
+#6 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(127): require('/Users/lisaover...')
+#7 /Users/lisaovermyr/sites/yii/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/lisaover...', NULL, true)
+#8 /Users/lisaovermyr/sites/yii/framework/web/CController.php(870): CBaseController->renderFile('/Users/lisaover...', NULL, true)
+#9 /Users/lisaovermyr/sites/yii/framework/web/CController.php(783): CController->renderPartial('illustrations', NULL, true)
+#10 /Users/lisaovermyr/sites/yiiportfolio/protected/controllers/SiteController.php(60): CController->render('illustrations')
+#11 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIllustrations()
+#12 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#13 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#14 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('illustrations')
+#16 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('site/illustrati...')
+#17 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#18 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yiiportfolio/index.php/site/illustrations
+HTTP_REFERER=http://localhost:8888/yiiportfolio/
+---
+2012/01/12 11:25:37 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_portfolio.tbl_users' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `tbl_users`.
+in /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/models/User.php (28)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/components/UserIdentity.php (27)
+in /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/models/UserLogin.php (52)
+2012/01/12 11:25:37 [error] [exception.CDbException] exception 'CDbException' with message 'The table "{{users}}" for active record class "User" cannot be found in the database.' in /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php:2264
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/db/ar/CActiveRecord.php(379): CActiveRecordMetaData->__construct(Object(User))
+#1 /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/models/User.php(28): CActiveRecord::model('User')
+#2 /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/components/UserIdentity.php(27): User::model()
+#3 /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/models/UserLogin.php(52): UserIdentity->authenticate()
+#4 /Users/lisaovermyr/sites/yii/framework/validators/CInlineValidator.php(43): UserLogin->authenticate('password', Array)
+#5 /Users/lisaovermyr/sites/yii/framework/validators/CValidator.php(197): CInlineValidator->validateAttribute(Object(UserLogin), 'password')
+#6 /Users/lisaovermyr/sites/yii/framework/base/CModel.php(158): CValidator->validate(Object(UserLogin), NULL)
+#7 /Users/lisaovermyr/sites/yiiportfolio/protected/modules/user/controllers/LoginController.php(19): CModel->validate()
+#8 /Users/lisaovermyr/sites/yii/framework/web/actions/CInlineAction.php(50): LoginController->actionLogin()
+#9 /Users/lisaovermyr/sites/yii/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Users/lisaovermyr/sites/yii/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Users/lisaovermyr/sites/yii/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(276): CController->run('')
+#13 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('user/login')
+#14 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yiiportfolio/index.php/user/login
+HTTP_REFERER=http://localhost:8888/yiiportfolio/index.php/user/login
+---
+2012/01/19 10:48:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiportfolio/index.php/gii
+---
+2012/01/19 10:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiportfolio/index.php/gii
+---
+2012/01/19 10:48:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('gii')
+#1 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiportfolio/index.php/gii
+---
+2012/01/20 10:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /Users/lisaovermyr/sites/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('test')
+#1 /Users/lisaovermyr/sites/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Users/lisaovermyr/sites/yiiportfolio/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiportfolio/index.php/test
+---
